@@ -15,8 +15,13 @@ header{
     width: 100%;
 }
 
-.container{
+.container-lg{
     width: 65%;
+    margin: 0 auto;
+}
+
+.container-sm{
+    width: 55%;
     margin: 0 auto;
 }
 
@@ -53,8 +58,6 @@ header{
 .col-right{
     justify-content: flex-end;
 }
-
-
 
 .col-30{
     width: 30%;
@@ -105,7 +108,7 @@ header{
 }
 
 .button{
-    padding: 10px;
+    padding: 10px 20px;
     border: none;
 }
 
@@ -129,6 +132,10 @@ header{
 
 .margin-r-20px{
     margin-right: 20px;
+}
+
+.margin-l-50px{
+    margin-left: 50px;
 }
 
 .margin-top-40px{
@@ -168,3 +175,16 @@ h1{
     position: absolute;
     bottom: 15px;
 }
+
+/* imput*/
+
+.imput-radio{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.imput-radio h2{
+    font-size: 50px;
+    padding: 40px 0px;
+}
+
