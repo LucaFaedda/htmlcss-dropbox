@@ -32,6 +32,12 @@ header{
     background-color: pink;
 }
 
+
+.bk-lightblu{
+    background-color: lightblue;
+}
+
+
 .col-left, .col-right{
     width: 50%;
     border: 1px solid black;
@@ -92,7 +98,13 @@ header{
     background-color: yellow;
     height: 300px;
     border: solid 1px black;
+}
 
+.col-100-5{
+    width: calc(100%/5);
+    background-color: rgb(225, 0, 255);
+    height: 300px;
+    border: solid 1px black;
 }
 
 /* utility */
