@@ -6,7 +6,7 @@
 
 header{
     height: 100px;
-    background-color: red;
+    background-color: #ffff;
     display: flex;
 }
 
@@ -40,7 +40,6 @@ header{
 
 .col-left, .col-right{
     width: 50%;
-    border: 1px solid black;
     display: flex;
     align-items: center;
 }
@@ -107,20 +106,39 @@ header{
     border: solid 1px black;
 }
 
+.button{
+    padding: 10px;
+    border: none;
+}
+
+.button.white{
+    background-color: #ffff;
+}
+
+.button.blue{
+    background-color:#0061FF;
+    color: #ffff;
+}
 /* utility */
 
 .space-between{
     justify-content: space-between;
 }
 
+.padding-lr-20px{
+    padding: 0px 20px;
+}
 
+.margin-r-20px{
+    margin-right: 20px;
+}
 /* header */
+
 
 .header-list{
     list-style: none;
     display: flex;
 }
-
 
 
 /* main */
