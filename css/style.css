@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    background-color: red;
+    display: flex;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-left, .col-right{
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.col-right{
+    justify-content: flex-end;
+}
+
+
+
+/* header */
+
+.header-list{
+    list-style: none;
+    display: flex;
+}
