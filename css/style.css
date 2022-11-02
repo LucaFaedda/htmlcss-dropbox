@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 header{
     height: 70px;
     background-color: #ffff;
@@ -22,6 +26,11 @@ header{
 
 .container-sm{
     width: 55%;
+    margin: 0 auto;
+}
+
+.container-xsm{
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -57,6 +66,13 @@ header{
 
 .col-right{
     justify-content: flex-end;
+}
+
+.col-plane-abbonament{
+    width: 30%;
+    background-color: #ffff;
+    border: 0.5px solid lightgrey;
+    padding-bottom: 30px;
 }
 
 .col-30{
@@ -120,10 +136,19 @@ header{
     background-color:#0061FF;
     color: #ffff;
 }
+
+ul{
+    list-style: none;
+}
+
 /* utility */
 
 .space-between{
     justify-content: space-between;
+}
+
+.padding-top-40px{
+    padding-top: 40px;
 }
 
 .padding-lr-20px{
@@ -132,6 +157,10 @@ header{
 
 .margin-r-20px{
     margin-right: 20px;
+}
+
+.padding-l-10px{
+    padding-left: 10px;
 }
 
 .margin-l-50px{
@@ -145,11 +174,15 @@ header{
 .margin-tb-20px{
     margin: 20px 0px;
 }
+
+.color-blue{
+    color: #0061FF;
+}
+
 /* header */
 
 
 .header-list{
-    list-style: none;
     display: flex;
 }
 
@@ -188,3 +221,36 @@ h1{
     padding: 40px 0px;
 }
 
+/* piani-tariffari */
+
+.text-center{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 0.5px solid lightgrey;
+}
+
+.plane{
+    padding-top: 40px;
+    line-height: 2;
+}
+
+.plane h3{
+    font-size: 25px;
+}
+
+.offerte li{
+    display: flex;
+    padding: 10px 0px;
+}
+
+.button.blue.big{
+    width: 100%;
+    margin: 40px 0px;
+}
+
+.line-grey{
+    width: 50px;
+    border: solid 0.5px lightgrey;
+    margin: 40px 0px;
+}
