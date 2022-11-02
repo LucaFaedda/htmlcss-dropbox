@@ -22,9 +22,14 @@ header{
 
 
 .jumbotron{
-    height: 200px;
     background-color: aqua;
     display: flex;
+    flex-direction: column;
+}
+
+.team{
+    height: 50px;
+    background-color: pink;
 }
 
 .col-left, .col-right{
@@ -38,6 +43,8 @@ header{
     justify-content: flex-end;
 }
 
+
+
 .col-30{
     width: 30%;
     background-color: blue;
@@ -49,20 +56,44 @@ header{
     width: 40%;
     background-color: orange;
     border: 1px solid black;
+    height: 300px;
+}
+
+.col-50{
+    width: 50%;
+    background-color: green;
+    border: 1px solid black;
+    height: 150px;
 }
 
 .col-60{
     width: 60%;
     background-color: orange;
     border: 1px solid black;
+    height: 300px;
+}
+
+.col-70{
+    width: 70%;
+    background-color: orange;
+    border: 1px solid black;
+    height: 100px;
 }
 
 .col-100{
     width: 100%;
     background-color: orange;
     border: 1px solid black;
+    height: 100px;
 }
 
+.col-100-3{
+    width: calc(100%/3);
+    background-color: yellow;
+    height: 300px;
+    border: solid 1px black;
+
+}
 
 /* utility */
 
