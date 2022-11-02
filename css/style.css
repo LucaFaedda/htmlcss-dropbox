@@ -5,13 +5,18 @@
 }
 
 header{
-    height: 100px;
+    height: 70px;
     background-color: #ffff;
     display: flex;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .container{
-    width: 75%;
+    width: 65%;
     margin: 0 auto;
 }
 
@@ -22,9 +27,10 @@ header{
 
 
 .jumbotron{
-    background-color: aqua;
+    background-color:#B4D0E7;
     display: flex;
     flex-direction: column;
+    padding-top: 150px;
 }
 
 .team{
@@ -57,11 +63,13 @@ header{
     border: 1px solid black;
 }
 
-.col-40{
-    width: 40%;
-    background-color: orange;
-    border: 1px solid black;
-    height: 300px;
+.col-inizia-prova{
+    width: 30%;
+    position: relative;
+}
+
+.col-jumbo-img{
+    width: 70%;
 }
 
 .col-50{
@@ -69,13 +77,6 @@ header{
     background-color: green;
     border: 1px solid black;
     height: 150px;
-}
-
-.col-60{
-    width: 60%;
-    background-color: orange;
-    border: 1px solid black;
-    height: 300px;
 }
 
 .col-70{
@@ -87,9 +88,6 @@ header{
 
 .col-100{
     width: 100%;
-    background-color: orange;
-    border: 1px solid black;
-    height: 100px;
 }
 
 .col-100-3{
@@ -132,6 +130,14 @@ header{
 .margin-r-20px{
     margin-right: 20px;
 }
+
+.margin-top-40px{
+    margin-top: 40px;
+}
+
+.margin-tb-20px{
+    margin: 20px 0px;
+}
 /* header */
 
 
@@ -143,3 +149,22 @@ header{
 
 /* main */
 
+/* jumbotron */
+
+h1{
+    font-size: 100px;
+}
+
+.jumbo{
+    object-fit: cover;
+    width: 100%;
+}
+
+.col-inizia-prova p{
+    font-size: 20px;
+}
+
+.fa-arrow-down{
+    position: absolute;
+    bottom: 15px;
+}
