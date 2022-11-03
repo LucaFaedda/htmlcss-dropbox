@@ -401,6 +401,11 @@ h1{
     height: calc(100vw / 3);
 }
 
+.border-solid-green{
+    border: solid 20px #D1E9CD;
+}
+
+
 /* porta dropbox */
 
 .button.white.large{
