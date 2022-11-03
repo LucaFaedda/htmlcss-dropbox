@@ -195,6 +195,10 @@ ul{
     justify-content: space-between;
 }
 
+.translateY{
+    transform: translateY(70px);
+}
+
 .padding-top-40px{
     padding-top: 40px;
 }
@@ -303,7 +307,7 @@ h1{
 
 .fa-arrow-down{
     position: absolute;
-    bottom: 15px;
+    bottom: 80px;
 }
 
 /* imput*/
@@ -460,3 +464,5 @@ footer select{
     width: 120px;
     margin-top: 50px;
 }
+
+/* fine footer */
