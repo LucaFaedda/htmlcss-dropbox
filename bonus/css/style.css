@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+header{
+    height: 70px;
+    background-color: #ffff;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer{
+    background-color: #000;
+    color: #ffff;
+}
+
+.container-lg{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.container-sm{
+    width: 55%;
+    margin: 0 auto;
+}
+
+.container-xsm{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+}
+
+
+.jumbotron{
+    background-color:#B4D0E7;
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+.team{
+    border: 1px solid lightgray;
+}
+
+
+
+.col-left, .col-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.col-right{
+    justify-content: flex-end;
+}
+
+.col-plane-abbonament{
+    width: 30%;
+    background-color: #ffff;
+    border: 0.5px solid lightgrey;
+    padding-bottom: 30px;
+}
+
+.col-entra-contatto{
+    width: 30%;
+}
+
+.col-img-partner{
+    width: 70%;
+}
+
+.col-contatta-button{
+    width: 40%;
+    text-align: right;
+}
+
+
+.col-enterprise{
+    width: 60%;
+}
+
+
+.col-30{
+    width: 30%;
+}
+
+.col-card-business{
+    width: 30%;
+}
+
+.col-inizia-prova{
+    width: 30%;
+    position: relative;
+}
+
+.col-jumbo-img{
+    width: 70%;
+}
+
+.col-50{
+    width: 50%;
+}
+
+.col-70{
+    width: 70%;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.col-100-3{
+    width: calc(100%/3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-100-5{
+    width: calc(100%/5);
+}
+
+.button{
+    padding: 10px 20px;
+    border: none;
+}
+
+.button.white{
+    background-color: #ffff;
+}
+
+.button.blue{
+    background-color:#0061FF;
+    color: #ffff;
+}
+
+ul{
+    list-style: none;
+}
+
+/* bk-color */
+
+.bk-lightgreen{
+    background-color: #A2D39B;
+}
+
+.bk-purple{
+    background-color: #61082B;
+}
+
+.bk-lightblue2{
+    background-color: #0093CE;
+}
+
+.bk-red{
+    background-color:#FF1C1C ;
+}
+
+.bk-lightblu{
+    background-color: lightblue;
+}
+
+.bk-blu{
+    background-color: #0D2481;
+}
+
+.bk-yellow{
+    background-color: #FFD830;
+}
+
+/* utility */
+
+.space-between{
+    justify-content: space-between;
+}
+
+.translateY{
+    transform: translateY(70px);
+}
+
+.padding-top-40px{
+    padding-top: 40px;
+}
+
+.padding-top-100px{
+    padding-top: 100px;
+}
+
+
+.padding-b-20px{
+    padding-bottom: 20px;
+}
+
+.padding-b-40px{
+    padding-bottom: 40px;
+}
+
+.padding-lr-20px{
+    padding: 0px 20px;
+}
+
+.padding-tb-130px{
+    padding: 130px 0px;
+}
+
+.padding-l-10px{
+    padding-left: 10px;
+}
+
+.margin-r-20px{
+    margin-right: 20px;
+}
+
+.margin-l-50px{
+    margin-left: 50px;
+}
+
+.margin-top-40px{
+    margin-top: 40px;
+}
+
+.margin-top-150px{
+    margin-top: 150px;
+}
+
+.margin-tb-20px{
+    margin: 20px 0px;
+}
+
+.margin-tb-30px{
+    margin: 30px 0px;
+}
+
+.margin-40px{
+    margin: 40px;
+}
+
+.margin-b-40px{
+    margin-bottom: 40px;
+}
+
+.color-blue{
+    color: #0061FF;
+}
+
+.color-purple{
+    color: #61082B;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 0.5px solid lightgrey;
+}
+
+
+/* header */
+
+
+.header-list{
+    display: flex;
+}
+
+
+/* main */
+
+/* jumbotron */
+
+h1{
+    font-size: 100px;
+}
+
+.jumbo{
+    object-fit: cover;
+    width: 100%;
+}
+
+.col-inizia-prova p{
+    font-size: 20px;
+}
+
+.fa-arrow-down{
+    position: absolute;
+    bottom: 80px;
+}
+
+/* imput*/
+
+.imput-radio{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.imput-radio h2{
+    font-size: 50px;
+    padding: 40px 0px;
+}
+
+/* piani-tariffari */
+
+
+.plane{
+    padding-top: 40px;
+    line-height: 2;
+}
+
+.offerte li{
+    display: flex;
+    padding: 10px 0px;
+}
+
+.button.blue.big{
+    width: 100%;
+    margin: 40px 0px;
+}
+
+.line-grey{
+    width: 50px;
+    border-top: solid 0.5px lightgrey;
+    margin: 40px 0px;
+}
+
+/* Enterprise */
+
+.team h4{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.team button{
+    padding: 10px 30px;
+    margin-right: 10px;
+}
+
+/* partner */
+
+.col-img-partner img{
+    width: 90%;
+}
+
+.col-entra-contatto button{
+    border: 0.5px lightgrey solid;
+    margin: 20px 0px;
+}
+
+/* card-business */
+
+.col-card-business img{
+    width: 100%;
+}
+
+
+/* designt-card */
+
+.square img{
+    width: 60%;
+    margin-left: 65px;
+    filter: invert();
+}
+
+.square{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.design-big{
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+
+.row.heightvh{
+    height: calc(100vw / 3);
+}
+
+/* porta dropbox */
+
+.button.white.large{
+    font-size:  15px;    
+    padding-left: 50px;    
+    padding-right: 50px;
+}
+
+/* FAQ */
+
+.FAQ{
+    padding: 30px 0px;
+    border-top: solid 1px black;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+
+.FAQS div:last-child{
+    border-bottom: solid 1px black;
+}
+
+.FAQ i{
+    padding-right: 40px;
+}
+
+/* fine main */
+
+/* footer */
+
+footer ul li:first-child{
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+footer ul li:not(:first-child){
+    line-height: 2.5;
+
+}
+
+li a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+footer select{
+    color:#999999;
+    background-color: #000;
+    font-size: 16px;
+    border-style: none;
+}
+
+.language{
+    color: #999999;
+    padding: 40px 0px;
+}
+
+.line-grey-2big{
+    width: 120px;
+    margin-top: 50px;
+}
+
+/* fine footer */
