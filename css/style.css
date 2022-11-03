@@ -8,6 +8,14 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 25px;
+}
+
 header{
     height: 70px;
     background-color: #ffff;
@@ -48,10 +56,8 @@ header{
 }
 
 .team{
-    height: 50px;
-    background-color: pink;
+    border: 1px solid lightgray;
 }
-
 
 .bk-lightblu{
     background-color: lightblue;
@@ -75,11 +81,34 @@ header{
     padding-bottom: 30px;
 }
 
+.col-entra-contatto{
+    width: 30%;
+}
+
+.col-img-partner{
+    width: 70%;
+}
+
+.col-contatta-button{
+    width: 40%;
+    text-align: right;
+}
+
+
+.col-enterprise{
+    width: 60%;
+}
+
+
 .col-30{
     width: 30%;
     background-color: blue;
     height: 100px;
     border: 1px solid black;
+}
+
+.col-card-business{
+    width: 30%;
 }
 
 .col-inizia-prova{
@@ -151,6 +180,14 @@ ul{
     padding-top: 40px;
 }
 
+.padding-b-20px{
+    padding-bottom: 20px;
+}
+
+.padding-b-40px{
+    padding-bottom: 40px;
+}
+
 .padding-lr-20px{
     padding: 0px 20px;
 }
@@ -171,13 +208,34 @@ ul{
     margin-top: 40px;
 }
 
+.margin-top-150px{
+    margin-top: 150px;
+}
+
 .margin-tb-20px{
     margin: 20px 0px;
 }
 
+.margin-tb-30px{
+    margin: 30px 0px;
+}
+
+
 .color-blue{
     color: #0061FF;
 }
+
+.text-align-center{
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 0.5px solid lightgrey;
+}
+
 
 /* header */
 
@@ -223,20 +281,10 @@ h1{
 
 /* piani-tariffari */
 
-.text-center{
-    text-align: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    border-bottom: 0.5px solid lightgrey;
-}
 
 .plane{
     padding-top: 40px;
     line-height: 2;
-}
-
-.plane h3{
-    font-size: 25px;
 }
 
 .offerte li{
@@ -253,4 +301,33 @@ h1{
     width: 50px;
     border: solid 0.5px lightgrey;
     margin: 40px 0px;
+}
+
+/* Enterprise */
+
+.team h4{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.team button{
+    padding: 10px 30px;
+    margin-right: 10px;
+}
+
+/* partner */
+
+.col-img-partner img{
+    width: 90%;
+}
+
+.col-entra-contatto button{
+    border: 0.5px lightgrey solid;
+    margin: 20px 0px;
+}
+
+/* card-business */
+
+.col-card-business img{
+    width: 100%;
 }
