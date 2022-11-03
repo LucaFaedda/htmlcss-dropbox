@@ -141,6 +141,12 @@ footer{
     width: calc(100%/5);
 }
 
+ul{
+    list-style: none;
+}
+
+/* button */
+
 .button{
     padding: 10px 20px;
     border: none;
@@ -155,8 +161,9 @@ footer{
     color: #ffff;
 }
 
-ul{
-    list-style: none;
+button:hover{
+    box-shadow:7px -6px 13px -2px #808080;
+    cursor: pointer;
 }
 
 /* bk-color */
@@ -399,6 +406,10 @@ h1{
 
 .row.heightvh{
     height: calc(100vw / 3);
+}
+
+.border-solid-green{
+    border: solid 20px #D1E9CD;
 }
 
 /* porta dropbox */
