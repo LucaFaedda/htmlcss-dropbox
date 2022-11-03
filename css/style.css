@@ -59,9 +59,6 @@ header{
     border: 1px solid lightgray;
 }
 
-.bk-lightblu{
-    background-color: lightblue;
-}
 
 
 .col-left, .col-right{
@@ -122,9 +119,6 @@ header{
 
 .col-50{
     width: 50%;
-    background-color: green;
-    border: 1px solid black;
-    height: 150px;
 }
 
 .col-70{
@@ -140,9 +134,6 @@ header{
 
 .col-100-3{
     width: calc(100%/3);
-    background-color: yellow;
-    height: 300px;
-    border: solid 1px black;
 }
 
 .col-100-5{
@@ -168,6 +159,36 @@ header{
 
 ul{
     list-style: none;
+}
+
+/* bk-color */
+
+.bk-lightgreen{
+    background-color: #A2D39B;
+}
+
+.bk-purple{
+    background-color: #61082B;
+}
+
+.bk-lightblue2{
+    background-color: #0093CE;
+}
+
+.bk-red{
+    background-color:#FF1C1C ;
+}
+
+.bk-lightblu{
+    background-color: lightblue;
+}
+
+.bk-blu{
+    background-color: #0D2481;
+}
+
+.bk-yellow{
+    background-color: #FFD830;
 }
 
 /* utility */
@@ -220,6 +241,9 @@ ul{
     margin: 30px 0px;
 }
 
+.margin-40px{
+    margin: 40px;
+}
 
 .color-blue{
     color: #0061FF;
@@ -299,7 +323,7 @@ h1{
 
 .line-grey{
     width: 50px;
-    border: solid 0.5px lightgrey;
+    border-top: solid 0.5px lightgrey;
     margin: 40px 0px;
 }
 
@@ -331,3 +355,30 @@ h1{
 .col-card-business img{
     width: 100%;
 }
+
+
+/* designt-card */
+
+.square img{
+    width: 60%;
+    margin-left: 65px;
+    filter: invert();
+}
+
+.square{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.design-big{
+    width: 50%;
+}
+
+.line-grey-2{
+    width: 100px;
+    border-top: solid 0.5px lightgrey;
+    margin: 40px 0px;
+}
+
