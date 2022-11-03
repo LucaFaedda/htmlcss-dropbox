@@ -134,6 +134,8 @@ header{
 
 .col-100-3{
     width: calc(100%/3);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .col-100-5{
@@ -366,19 +368,19 @@ h1{
 }
 
 .square{
-    width: 300px;
-    height: 300px;
+    width: 50%;
+    height: 50%;
     display: flex;
     align-items: center;
 }
 
 .design-big{
     width: 50%;
+    padding-bottom: 50px;
 }
 
-.line-grey-2{
-    width: 100px;
-    border-top: solid 0.5px lightgrey;
-    margin: 40px 0px;
+
+.row.heightvh{
+    height: calc(100vw / 3);
 }
 
