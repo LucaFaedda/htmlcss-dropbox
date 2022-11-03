@@ -27,6 +27,11 @@ header{
     width: 100%;
 }
 
+footer{
+    background-color: #000;
+    color: #ffff;
+}
+
 .container-lg{
     width: 65%;
     margin: 0 auto;
@@ -134,9 +139,6 @@ header{
 
 .col-100-5{
     width: calc(100%/5);
-    background-color: rgb(225, 0, 255);
-    height: 300px;
-    border: solid 1px black;
 }
 
 .button{
@@ -196,6 +198,11 @@ ul{
 .padding-top-40px{
     padding-top: 40px;
 }
+
+.padding-top-100px{
+    padding-top: 100px;
+}
+
 
 .padding-b-20px{
     padding-bottom: 20px;
@@ -415,4 +422,41 @@ h1{
 
 .FAQ i{
     padding-right: 40px;
+}
+
+/* fine main */
+
+/* footer */
+
+footer ul li:first-child{
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+footer ul li:not(:first-child){
+    line-height: 2.5;
+
+}
+
+li a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+footer select{
+    color:#999999;
+    background-color: #000;
+    font-size: 16px;
+    border-style: none;
+}
+
+.language{
+    color: #999999;
+    padding: 40px 0px;
+}
+
+.line-grey-2big{
+    width: 120px;
+    margin-top: 50px;
 }
