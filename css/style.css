@@ -99,9 +99,6 @@ header{
 
 .col-30{
     width: 30%;
-    background-color: blue;
-    height: 100px;
-    border: 1px solid black;
 }
 
 .col-card-business{
@@ -123,9 +120,6 @@ header{
 
 .col-70{
     width: 70%;
-    background-color: orange;
-    border: 1px solid black;
-    height: 100px;
 }
 
 .col-100{
@@ -215,12 +209,16 @@ ul{
     padding: 0px 20px;
 }
 
-.margin-r-20px{
-    margin-right: 20px;
+.padding-tb-130px{
+    padding: 130px 0px;
 }
 
 .padding-l-10px{
     padding-left: 10px;
+}
+
+.margin-r-20px{
+    margin-right: 20px;
 }
 
 .margin-l-50px{
@@ -247,8 +245,16 @@ ul{
     margin: 40px;
 }
 
+.margin-b-40px{
+    margin-bottom: 40px;
+}
+
 .color-blue{
     color: #0061FF;
+}
+
+.color-purple{
+    color: #61082B;
 }
 
 .text-align-center{
@@ -384,3 +390,29 @@ h1{
     height: calc(100vw / 3);
 }
 
+/* porta dropbox */
+
+.button.white.large{
+    font-size:  15px;    
+    padding-left: 50px;    
+    padding-right: 50px;
+}
+
+/* FAQ */
+
+.FAQ{
+    padding: 30px 0px;
+    border-top: solid 1px black;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+
+.FAQS div:last-child{
+    border-bottom: solid 1px black;
+}
+
+.FAQ i{
+    padding-right: 40px;
+}
