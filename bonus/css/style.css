@@ -412,6 +412,10 @@ h1{
     border: solid 20px #D1E9CD;
 }
 
+.square:hover{
+    filter: invert(10%);
+}
+
 /* porta dropbox */
 
 .button.white.large{
@@ -428,6 +432,7 @@ h1{
     display: flex;
     justify-content: space-between;
     font-weight: bold;
+    position: relative;
 }
 
 
@@ -438,6 +443,7 @@ h1{
 .FAQ i{
     padding-right: 40px;
 }
+
 
 /* fine main */
 
