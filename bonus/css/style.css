@@ -16,6 +16,7 @@ h3{
     font-size: 25px;
 }
 
+
 header{
     height: 70px;
     background-color: #ffff;
@@ -300,6 +301,24 @@ button:hover{
     display: flex;
 }
 
+.header-list a{
+    text-decoration: none;
+    color: #000;
+}
+
+.text{
+    position: relative;
+    display: inline-block;
+}
+
+.text:hover .submenu{
+    display:inline;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+}
 
 /* main */
 
@@ -321,6 +340,11 @@ h1{
 .fa-arrow-down{
     position: absolute;
     bottom: 80px;
+}
+
+.jumbotron a{
+    text-decoration: none;
+    color: #000;
 }
 
 /* imput*/
@@ -394,7 +418,7 @@ h1{
 .square img{
     width: 60%;
     margin-left: 65px;
-    filter: invert();
+    filter: invert(1);
 }
 
 .square{
