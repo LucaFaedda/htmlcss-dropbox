@@ -232,6 +232,10 @@ ul{
     padding-left: 10px;
 }
 
+.padding-40px{
+    padding: 40px;
+}
+
 .margin-r-20px{
     margin-right: 20px;
 }
@@ -256,9 +260,6 @@ ul{
     margin: 30px 0px;
 }
 
-.margin-40px{
-    margin: 40px;
-}
 
 .margin-b-40px{
     margin-bottom: 40px;

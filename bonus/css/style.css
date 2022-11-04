@@ -196,6 +196,10 @@ button:hover{
     background-color: #FFD830;
 }
 
+.bk-lightgrey{
+    background-color: lightgrey;
+}
+
 /* utility */
 
 .space-between{
@@ -235,6 +239,11 @@ button:hover{
     padding-left: 10px;
 }
 
+.padding-40px{
+    padding: 40px;
+}
+
+
 .margin-r-20px{
     margin-right: 20px;
 }
@@ -259,9 +268,6 @@ button:hover{
     margin: 30px 0px;
 }
 
-.margin-40px{
-    margin: 40px;
-}
 
 .margin-b-40px{
     margin-bottom: 40px;
